@@ -1,0 +1,15 @@
+config:
+  blackhole:awsAccountId:
+    secure: AAABAE51GAgyjBGkNnhJyTQa+WWwqAHIeC33kyChCqP5HruAkHiuNJ4vdAM=
+  blackhole:brightConfigYaml:
+    secure: AAABAC45v+b8V4ZUQT4xoTsaecKHQhJ5MZLP2m0RENvN3E6sXLpPKYd71zdOBy/qxmTKOWuvGZxtTJAfMKr2Ej9qME5z9VCS
+  blackhole:brightDatestamp: "20191124"
+  blackhole:brightImage: shihtzu/bright
+  blackhole:brightTimestamp: "170150"
+  blackhole:brightVersion: 0.13.10
+  blackhole:dev-domain: shihtzu.dev
+  blackhole:domain: shihtzu.io
+  blackhole:name: blackhole
+  blackhole:vpcCidrBlock: 10.98.0.0/16
+  blackhole:wordpress-password:
+    secure: AAABAFAXPEtEihJ+9HRfxs+IouqkL+rIKCVrfjR6NrL1JEt+VF2o9+/eL9liPsBUNCJ9Qwv7l9wDJMukAwopffG0laTHLWaz1ZfdgAgoYUK5d/9fsofe9YewW/sPEY8X
