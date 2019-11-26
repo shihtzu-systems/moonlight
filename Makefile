@@ -1,5 +1,3 @@
-org := shihtzu
-
 brightImage := shihtzu/bright
 brightVersion := $(shell cat $$HOME/git/bright/app.version)
 brightDatestamp := $(shell cat $$HOME/git/bright/app.datestamp)
@@ -11,7 +9,7 @@ bright-stamp:
 bright:
 	make -C $$HOME/git/bright git-master-branch
 	make -C $$HOME/git/bright fmt
-	pulumi stack select $(org)/main
+	pulumi stack select main
 	pulumi config set brightImage $(brightImage)
 	pulumi config set brightVersion $(brightVersion)
 	pulumi config set brightDatestamp $(brightDatestamp)

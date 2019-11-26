@@ -77,7 +77,7 @@ export class Bright {
                             {
                                 name: "content",
                                 image: `${this.image}:${this.imageTag}`,
-                                args: [ "initialize", "--config", "/.bright.yaml" ],
+                                args: [ "destiny", "--config", "/.bright.yaml" ],
                                 volumeMounts: [
                                     {
                                         name: `${this.name}-content`,

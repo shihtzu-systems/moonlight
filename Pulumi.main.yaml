@@ -1,15 +1,14 @@
 config:
-  blackhole:awsAccountId:
-    secure: AAABAE51GAgyjBGkNnhJyTQa+WWwqAHIeC33kyChCqP5HruAkHiuNJ4vdAM=
-  blackhole:brightConfigYaml:
-    secure: AAABAC45v+b8V4ZUQT4xoTsaecKHQhJ5MZLP2m0RENvN3E6sXLpPKYd71zdOBy/qxmTKOWuvGZxtTJAfMKr2Ej9qME5z9VCS
-  blackhole:brightDatestamp: "20191124"
-  blackhole:brightImage: shihtzu/bright
-  blackhole:brightTimestamp: "170150"
-  blackhole:brightVersion: 0.13.10
-  blackhole:dev-domain: shihtzu.dev
-  blackhole:domain: shihtzu.io
-  blackhole:name: blackhole
-  blackhole:vpcCidrBlock: 10.98.0.0/16
-  blackhole:wordpress-password:
-    secure: AAABAFAXPEtEihJ+9HRfxs+IouqkL+rIKCVrfjR6NrL1JEt+VF2o9+/eL9liPsBUNCJ9Qwv7l9wDJMukAwopffG0laTHLWaz1ZfdgAgoYUK5d/9fsofe9YewW/sPEY8X
+  aws:region: us-west-2
+  moonlight:awsAccountId:
+    secure: AAABAKpVL6+3rQWwvw39bSl+k1zg7qTlcJ4jw/gpqsTfhm9nhf/Sol9BxHk=
+  moonlight:brightConfigYaml:
+    secure: AAABAJobMzTYv4yVdTodfKn9pCjV2BMDVQIqSi2kQi+tPS0f9+/gqw6CVpRhdBnTjkloUAfOIbNbvbFXCNwaWSBfEhZ3/wOT
+  moonlight:brightDatestamp: "20191125"
+  moonlight:brightImage: shihtzu/bright
+  moonlight:brightTimestamp: "225402"
+  moonlight:brightVersion: 0.14.0
+  moonlight:name: moonlight
+  moonlight:traefikBasicAuth:
+    secure: AAABAI+5/VZ1fvWGQH3rbkiG9yLkiaYMvqJKUrqMw2EG9Y+6o7FXiAugco7Ybb+wn0pAWr8C22jhRPRn7g==
+  moonlight:vpcCidrBlock: 10.97.0.0/16

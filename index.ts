@@ -5,16 +5,15 @@ import { AlbIngressController } from "./network/alb";
 import { EksCluster } from "./cluster/eks";
 import { ClusterRole } from "./permissions/iam";
 import { ExternalDns } from "./network/externaldns";
-import { ElasticacheCluster } from "./storage/elasticache";
 import { TraefikOperator } from "./observe/traefik";
 import { JaegerInstance, JaegerOperator } from "./observe/jaeger";
-import { RedisCommander } from "./observe/rediscmdr";
-import {Bright, BrightCache} from "./shihtzu/bright";
+import { Bright, BrightCache } from "./shihtzu/bright";
 
 const config = new pulumi.Config();
 const name = config.require("name");
 const vpcCidrBlock = config.require("vpcCidrBlock");
 const awsAccountId = config.require("awsAccountId");
+const traefikBasicAuth = config.require("traefikBasicAuth");
 
 const clusterVpc = vpc.applyVpc(name, vpcCidrBlock);
 
