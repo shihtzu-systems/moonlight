@@ -4,10 +4,10 @@ config:
     secure: AAABAKpVL6+3rQWwvw39bSl+k1zg7qTlcJ4jw/gpqsTfhm9nhf/Sol9BxHk=
   moonlight:brightConfigYaml:
     secure: AAABAJobMzTYv4yVdTodfKn9pCjV2BMDVQIqSi2kQi+tPS0f9+/gqw6CVpRhdBnTjkloUAfOIbNbvbFXCNwaWSBfEhZ3/wOT
-  moonlight:brightDatestamp: "20191125"
+  moonlight:brightDatestamp: "20191128"
   moonlight:brightImage: shihtzu/bright
-  moonlight:brightTimestamp: "225402"
-  moonlight:brightVersion: 0.14.0
+  moonlight:brightTimestamp: "074222"
+  moonlight:brightVersion: 0.15.0
   moonlight:name: moonlight
   moonlight:traefikBasicAuth:
     secure: AAABAI+5/VZ1fvWGQH3rbkiG9yLkiaYMvqJKUrqMw2EG9Y+6o7FXiAugco7Ybb+wn0pAWr8C22jhRPRn7g==

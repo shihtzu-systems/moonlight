@@ -95,7 +95,7 @@ export class Bright {
                             {
                                 name: "main",
                                 image: `${this.image}:${this.imageTag}`,
-                                args: ["servex", "--config", "/.bright.yaml"],
+                                args: ["serve", "--config", "/.bright.yaml"],
                                 env: [
                                     {
                                         //  redis.v4
