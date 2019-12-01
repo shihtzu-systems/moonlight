@@ -1,14 +1,33 @@
 config:
   aws:region: us-west-2
   moonlight:awsAccountId:
-    secure: AAABAKpVL6+3rQWwvw39bSl+k1zg7qTlcJ4jw/gpqsTfhm9nhf/Sol9BxHk=
+    secure: AAABAFzBtS+axIvr7Q4wT84lBq6erxhPlmaG/oNXwJWf+yd4+7RQ94Oa3y4=
+  moonlight:bingoConfigYaml:
+    secure: AAABAAAkUH6QX321uJmuzc7K9buqYrHcE2lXrnfK4LZ/ZmyJFRE7eBjS8L2+k/QK4IkByxVvYtZ7FaxezS4emR6dZmx2jg==
+  moonlight:bingoDatestamp: "20191130"
+  moonlight:bingoImage:
+    secure: AAABAPGJuAL09kmCankKsnlBdPLeTACMTGIHwkyoxblCDB7apw2G5hRG5byA
+  moonlight:bingoTimestamp: "110509"
+  moonlight:bingoVersion: 0.1.0
   moonlight:brightConfigYaml:
-    secure: AAABAJobMzTYv4yVdTodfKn9pCjV2BMDVQIqSi2kQi+tPS0f9+/gqw6CVpRhdBnTjkloUAfOIbNbvbFXCNwaWSBfEhZ3/wOT
-  moonlight:brightDatestamp: "20191128"
-  moonlight:brightImage: shihtzu/bright
-  moonlight:brightTimestamp: "074222"
-  moonlight:brightVersion: 0.15.0
+    secure: AAABAPwySN0StFn2k7U5RMwGtQvoxBWLko5h9hPZDjeKbNF5h/wr0hBCUYZI/RSpUQsPO2fHHVsvxiMS2XIquRaEcaloFVuD
+  moonlight:brightDatestamp: "20191130"
+  moonlight:brightImage:
+    secure: AAABAOL9bzmLElhpsPLP36OdJqmjGIlbUtIeUfywMjjraPOM/DW5Vfvk7nY7ZQ==
+  moonlight:brightTimestamp: "083836"
+  moonlight:brightVersion: 0.16.0
+  moonlight:liveBrightConfigYaml:
+    secure: AAABANttD+fKUqK4qwb1ckwFXlmtHw0GkKCin/HQbKSn5CnSaXceO5wJhb+JI/1xkM3gfCm+27wEof/SLpTiDfH6/hlpLRqC
+  moonlight:liveBrightDatestamp: "20191130"
+  moonlight:liveBrightImage:
+    secure: AAABAMNnvgI+FEaZxaWEFTW9kscI9OvQBKiohuzPuM2+fFgm0aXqQuYxR8sprg==
+  moonlight:liveBrightTimestamp: "083836"
+  moonlight:liveBrightVersion: 0.16.0
   moonlight:name: moonlight
-  moonlight:traefikBasicAuth:
-    secure: AAABAI+5/VZ1fvWGQH3rbkiG9yLkiaYMvqJKUrqMw2EG9Y+6o7FXiAugco7Ybb+wn0pAWr8C22jhRPRn7g==
-  moonlight:vpcCidrBlock: 10.97.0.0/16
+  moonlight:oompaDatestamp: "20191201"
+  moonlight:oompaImage:
+    secure: AAABAD6skwreSIftPuyp2FDA+gCZJ2nN2iu3Zsi4j4H7Jb7qmZL3z3oi7q6m
+  moonlight:oompaTimestamp: "102415"
+  moonlight:oompaVersion: 0.0.1
+  moonlight:vpcCidrBlock:
+    secure: AAABAMTXRu1htPlEMS24mTnkwhIzBvyLkV2JgIiP+OocRWq0KrauPf9Rbd4=

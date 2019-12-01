@@ -152,6 +152,27 @@ export class AlbIngressController {
                         }
                     },
                     {
+                        host: "bright.pub",
+                        http: {
+                            paths: [
+                                {
+                                    path: "/*",
+                                    backend: {
+                                        serviceName: "ssl-redirect",
+                                        servicePort: "use-annotation"
+                                    }
+                                },
+                                {
+                                    path: "/*",
+                                    backend: {
+                                        serviceName: proxy.metadata.name,
+                                        servicePort: proxy.spec.ports[0].name
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
                         host: "*.bright.pub",
                         http: {
                             paths: [

@@ -9,6 +9,7 @@
         "@pulumi/eks": "^0.18.14",
         "@pulumi/kubernetes": "^1.2.3",
         "@pulumi/pulumi": "^1.0.0",
-        "pulumi": "0.0.1"
+        "pulumi": "0.0.1",
+      "@pulumi/kubernetesx": "latest"
     }
 }
